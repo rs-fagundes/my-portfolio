@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 
-df = pd.read_csv('csv\supermarket_sales.csv')
+df = pd.read_csv('csv/supermarket_sales.csv')
 
 df['Date'] = pd.to_datetime(df['Date'])
 
